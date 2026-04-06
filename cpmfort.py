@@ -1,0 +1,21 @@
+# list=[1,2,3]
+# print(list)
+# list.append(4)
+# print(list)
+# print(list.sort())
+# print(list.sort(reverse=True))
+
+list=['a','d','b','e','c']
+# print(list)
+# list.sort()
+# list.append('f')
+# list.sort(reverse=True)
+# print(list)
+list.reverse()
+print(list)
+list.insert(2,'g')
+print(list)
+list.remove('b')
+print(list)
+list.pop(1)
+print(list)
