@@ -125,3 +125,10 @@ def fruits(list,idx=0):
     fruits(list,idx+1)
 fruits=["apple","banana","grapes","orange"]
 print(fruits)
+
+def rec(num):
+    if(num==0):
+        return 
+    print(num)
+    rec(num-1)
+print(rec(5))
